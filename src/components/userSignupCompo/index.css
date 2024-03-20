@@ -1,0 +1,335 @@
+.signup-form-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 16px;
+  min-width: 150px;
+  width: 97%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(56, 185, 56);
+}
+
+.signup-logo-image-container {
+  min-width: 90px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.signup-logo-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.signup-logo-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #5fb830;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.signup-form-element {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-label {
+  font-size: 18px;
+  color: #636262;
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.signup-input-ele {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  padding: 6px;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.signup-terms-conditions-container {
+  width: 100%;
+  min-width: 90px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.signup-terms-checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+.signup-terms-conditions-text {
+  color: #424242;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.signup-terms-conditions-text:hover {
+  color: rgb(81, 81, 255);
+  text-decoration: underline;
+}
+
+.signup-submit-button-container {
+  width: 100%;
+  min-width: 90px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.signup-submit-button {
+  background-color: #6366f1;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s linear;
+}
+
+.signup-submit-button-inactive {
+  background-color: #7e7fbe;
+  cursor: wait;
+}
+
+.signup-required-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff0b37;
+  margin-top: 10px;
+}
+
+.signup-input-phone-number-container {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: stretch;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.signup-phone-number-select-ele {
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+  outline: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  border-right: 1px solid #a8a8a8;
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.signup-select-options-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  z-index: 10;
+}
+
+.signup-phone-codes-search-input {
+  width: 100%;
+  height: 32px;
+  font-size: 14px;
+  color: #000000;
+  outline: none;
+  border: 1px solid #adadad;
+  padding: 4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.signup-select-options-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  max-height: 250px;
+  width: 100%;
+  overflow-y: auto;
+  transition: height 0.3s linear;
+}
+
+.signup-select-options-container ul::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #00000010;
+}
+
+.signup-select-options-container ul::-webkit-scrollbar-thumb {
+  width: 1rem;
+  height: 3rem;
+  background-color: #bdbdbd;
+  border-radius: 0.4rem;
+}
+
+.signup-select-options-container ul li {
+  padding: 7px 11px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 14px;
+  padding: 8px 11px;
+}
+
+.signup-select-options-container ul li:hover {
+  background-color: #6366f1;
+  color: #ffffff;
+}
+
+.signup-select-options-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-select-options-list-container div span {
+  margin-left: 6px;
+}
+
+.signup-phone-number-input-ele {
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  width: 80%;
+  height: 100%;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
+}
+
+.signup-phone-select-arrow {
+  font-size: 18px;
+  transition: transform 0.3s linear;
+}
+
+.signup-phone-list-displayed {
+  transform: rotate(180deg);
+}
+
+.signup-input-password-container {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: stretch;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.signup-input-password-ele {
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  width: 82%;
+  height: 100%;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
+}
+
+.signup-password-eye-icon-button {
+  width: 18%;
+  padding: 6px;
+  padding-right: 11px;
+  background: transparent;
+  border: none;
+  height: 100%;
+  font-size: 18px;
+  color: #000000;
+  text-align: right;
+  outline: none;
+}
+
+.success-msg-color {
+  color: green;
+}
+
+.signup-password-points-list {
+  font-size: 12px;
+  color: #838282;
+}
+
+.signup-already-have-account-container {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-already-have-account-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.signup-already-have-account-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-already-have-account-link:hover {
+  text-decoration: underline;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}

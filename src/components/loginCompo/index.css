@@ -1,0 +1,187 @@
+.login-form-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 16px;
+  min-width: 150px;
+  width: 97%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(56, 185, 56);
+}
+
+.login-logo-image-container {
+  min-width: 90px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.login-logo-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.login-logo-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #5fb830;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.login-form-element {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-label {
+  font-size: 18px;
+  color: #636262;
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-input-ele {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  padding: 6px;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.login-submit-button-container {
+  width: 100%;
+  min-width: 90px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.login-submit-button {
+  background-color: #6366f1;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s linear;
+}
+
+.login-submit-button-inactive {
+  background-color: #7e7fbe;
+  cursor: wait;
+}
+
+.login-required-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff0b37;
+  margin-top: 10px;
+}
+
+.login-input-password-container {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: stretch;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.login-input-password-ele {
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  width: 82%;
+  height: 100%;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
+}
+
+.login-password-eye-icon-button {
+  width: 18%;
+  padding: 6px;
+  padding-right: 11px;
+  background: transparent;
+  border: none;
+  height: 100%;
+  font-size: 18px;
+  color: #000000;
+  text-align: right;
+  outline: none;
+}
+
+.success-msg-color {
+  color: green;
+}
+
+.login-password-points-list {
+  font-size: 12px;
+  color: #838282;
+}
+
+.login-already-have-account-container {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 7px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-already-have-account-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.login-already-have-account-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-already-have-account-link:hover {
+  text-decoration: underline;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}

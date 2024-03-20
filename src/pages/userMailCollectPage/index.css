@@ -1,0 +1,150 @@
+.mail-collect-page-main-container {
+  background-color: rgb(172, 250, 172, 10%);
+  padding: 18px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mail-collect-form-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 16px;
+  min-width: 150px;
+  width: 97%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(56, 185, 56);
+}
+
+.mail-collect-image-container {
+  min-width: 90px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.mail-collect-logo-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.mail-collect-logo-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #5fb830;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.mail-collect-form-element {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mail-collect-label {
+  font-size: 18px;
+  color: #636262;
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.mail-collect-input-ele {
+  background-color: transparent;
+  border: 2px solid #bebfc2;
+  padding: 6px;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.mail-collect-submit-button-container {
+  width: 100%;
+  min-width: 90px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.mail-collect-submit-button {
+  background-color: #6366f1;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s linear;
+}
+
+.mail-collect-submit-button-inactive {
+  background-color: #7e7fbe;
+  cursor: wait;
+}
+
+.mail-collect-required-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff0b37;
+  margin-top: 10px;
+}
+
+.success-msg-color {
+  color: green;
+}
+
+.mail-collect-already-have-account-container {
+  width: 95%;
+  min-width: 90px;
+  margin-top: 7px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-collect-already-have-account-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.mail-collect-already-have-account-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mail-collect-already-have-account-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.signup-error-fallback-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.signup-error-fallback-icon-container {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+@keyframes iconAnimate {
+  from {
+    width: 78px;
+  }
+  to {
+    width: 116px;
+  }
+}
+
+.signup-error-fallback-icon {
+  width: 78px;
+  transition: width 0.1s linear;
+  animation: 1s ease-in-out 0s infinite alternate iconAnimate;
+}
+
+.signup-error-fallback-head {
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.signup-error-fallback-text {
+  color: #777777;
+  font-weight: 500;
+  font-size: 18px;
+}

@@ -1,0 +1,70 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3d3d3d;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-select-element-section {
+  flex: 1;
+  padding: 22px 10px;
+}
+
+.home-city-select-ele {
+  width: 210px;
+  padding: 5px;
+  border: 2px solid #5cad2f;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  height: 42px;
+}
+
+.home-city-select-ele-2 {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #8fa185;
+  transition: border-color 0.2s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .home-city-select-ele {
+    width: 320px;
+  }
+}
+
+.home-available-slots-heading {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.slots-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-city-select-ele-2-active {
+  border-color: #5cad2f;
+  transition: border-color 0.2s linear;
+}
+
+.book-modal-text {
+  font-size: 18px;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.slot-book-success-msg {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}

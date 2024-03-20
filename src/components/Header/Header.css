@@ -1,0 +1,38 @@
+.header-main-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 22px;
+  background-color: #00000010;
+}
+
+.header-web-name-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #82f345;
+  text-decoration: none;
+}
+
+.header-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.header-list-container li {
+  margin-bottom: 0px;
+}
+
+.header-list-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #c5c4c4;
+  font-weight: 600;
+  transition: color 0.2s linear;
+}
+
+.header-list-link:hover {
+  color: #ffffff;
+}

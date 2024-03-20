@@ -1,0 +1,23 @@
+.slot-item {
+  font-size: 16px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 16px;
+  transition: background-color 0.2s linear, border-color 0.2s linear;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.is-slot-active {
+  background-color: green;
+  border-color: green;
+  transition: background-color 0.2s linear, border-color 0.2s linear;
+}
+
+.is-slot-disabled {
+  border-color: #8f8e8e;
+  color: #8f8e8e;
+}
